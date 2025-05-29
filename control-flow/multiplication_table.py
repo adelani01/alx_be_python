@@ -1,7 +1,7 @@
 # Multiplication times table
 
 #Prompt User for a Number:
-number = int(input("Enter a number to see it multiplication table: "))
+number = int(input("Enter a number to see its multiplication table: "))
 
 
 #Generate and Print the Multiplication Table:
