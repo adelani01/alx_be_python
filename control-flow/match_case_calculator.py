@@ -1,12 +1,12 @@
 # Prompt for User Input:
 num1 = int(input("Enter the first number:"))
 num2 = int(input("Enter the second number:"))
-user = (input("Choose the operation (+, -, *, /):"))
+operation = (input("Choose the operation (+, -, *, /):"))
 
 # Perform the Calculation using Match case 
 # output the result
 
-match user:
+match operation:
     case "+":
         result = num1 + num2
         print(f"The result is {result}")
