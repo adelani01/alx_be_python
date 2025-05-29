@@ -7,7 +7,6 @@ user = (input("Choose the operation (+, -, *, /):"))
 # output the result
 
 match user:
-
     case "+":
         result = num1 + num2
         print(f"The result is {result}.")
