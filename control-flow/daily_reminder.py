@@ -6,9 +6,9 @@
 
 Task = input("Enter your task :")
 Priority = input("Priority (high/medium/low):")
-Time_bound = input("Is it time-bound? (yes/no):")
+Time_Bound = input("Is it time-bound? (yes/no):")
 
-match Time_bound:
+match Time_Bound:
     case "yes":
         print(f"Reminder: '{Task}' is a {Priority} priority task that requires immediate attention today!" )
 
