@@ -4,16 +4,16 @@
 
 #Prompt for a Single Task:
 
-task = input("Enter your task :")
-priority = input("Priority (high/medium/low):")
-time_bound = input("Is it time-bound? (yes/no):")
+Task = input("Enter your task :")
+Priority = input("Priority (high/medium/low):")
+Time_bound = input("Is it time-bound? (yes/no):")
 
-match time_bound:
+match Time_bound:
     case "yes":
-        print(f"Reminder: '{task}' is a {priority} priority task that requires immediate attention today!" )
+        print(f"Reminder: '{Task}' is a {Priority} priority task that requires immediate attention today!" )
 
     case "no":
-     print(f"Note: '{task}' is a {priority} priority task. Consider completing it when you have free time." )
+     print(f"Note: '{Task}' is a {Priority} priority task. Consider completing it when you have free time." )
 
 
 
