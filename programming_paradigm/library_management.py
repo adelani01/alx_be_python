@@ -44,7 +44,6 @@ class Library:
             if each_books.title == title:
                 if  each_books.is_checked_out():
                     return each_books.return_book()
-        
         else:
             return False
         
@@ -57,20 +56,5 @@ class Library:
         return available_books
             
 
-
-library = Library()
-
-book1 = Book("1984", "George Orwell")
-book2 = Book("The Hobbit", "J.R.R. Tolkien")
-
-library.add_book(book1)
-library.add_book(book2)
-
-library.check_out_book("1984")  # Book is checked out
-library.return_book("1984")     # Book is returned
-
-# Print available books
-for book in library.list_available_books():
-    print(f"{book.title} by {book.author}")
             
           
