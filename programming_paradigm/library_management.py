@@ -40,8 +40,7 @@ class Library:
         
     def return_book(self,title):
         for each_books in self._books:
-            if each_books.title == title:
-                if  each_books.is_checked_out():
+            if each_books.title == title and each_books.is_checked_out():
                     return each_books.return_book()
         
         return False
