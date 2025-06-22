@@ -36,16 +36,15 @@ class Library:
         for each_books in self.__books:
             if each_books.title == title:
                 return each_books.check_out_book()
-        else:
-            return False
+        return False
         
     def return_book(self,title):
         for each_books in self.__books:
             if each_books.title == title:
                 if  each_books.is_checked_out():
                     return each_books.return_book()
-        else:
-            return False
+        
+        return False
         
     def list_available_books(self):
         available_books = []
