@@ -13,4 +13,4 @@ class Calculator:
         Prints the class attribute 'calculation_type' before returning the result.
         """
         print(cls.calculation_type)
-        return (a * b)
+        return a * b
