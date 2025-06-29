@@ -12,5 +12,5 @@ class Calculator:
         """Class method to multiply two numbers.
         Prints the class attribute 'calculation_type' before returning the result.
         """
-        print(f"Calculation type:{cls.calculation_type}")
+        print(f"Calculation type: {cls.calculation_type}")
         return a * b
